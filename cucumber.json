@@ -1,5 +1,9 @@
 {
     "default": {
+        "format":[
+            "json:reports/report.json",
+            "html:reports/report.html"
+        ],
         "require": [
             "features/support/**/*.ts"
         ],
